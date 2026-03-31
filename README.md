@@ -57,6 +57,10 @@ The interactive dashboard will automatically open in your browser!
 - **Random Forest** — An ensemble of 100 decision trees voting together
 - **ROC-AUC** — Measures how well the model separates fraud from legitimate (1.0 = perfect)
 - **Confusion Matrix** — Shows True Positives, False Positives, True Negatives, False Negatives
+  
+  ## 🌐 Live Interactive Dashboard
+
+👉 [Click here to view the Live Dashboard](https://rizwanashaik09.github.io/fraud-detection-analytics-/fraud_detection_dashboard.html)
 
 ## 👨‍💻 Author
 Made with ❤️ using Python and scikit-learn
