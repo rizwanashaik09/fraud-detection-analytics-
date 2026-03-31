@@ -1,25 +1,31 @@
 # 🛡️ Fraud Detection Analytics using Machine Learning
 
-A complete end-to-end Machine Learning project that detects fraudulent credit card transactions using Python. Features an interactive browser dashboard with animations and hover effects.
+An end-to-end Machine Learning system for detecting fraudulent credit card transactions using Python. The project includes data preprocessing, model training, evaluation, and an interactive browser-based dashboard.
 
 ## 📌 Project Overview
 
-Credit card fraud is a major problem — millions of transactions happen daily and only a tiny fraction are fraudulent. This project builds a smart system that can automatically detect suspicious transactions using Machine Learning.
+Credit card fraud is a critical issue in financial systems. With millions of daily transactions and only a small fraction being fraudulent, detecting anomalies accurately is challenging.
 
-- **Dataset:** Synthetic dataset mimicking the Kaggle Credit Card Fraud dataset (10,000 transactions, 200 fraud cases)
-- **Models Used:** Logistic Regression & Random Forest Classifier
+This project builds a robust ML-based solution to identify fraudulent transactions efficiently.
+
+- **Dataset:** Synthetic dataset inspired by the Kaggle Credit Card Fraud dataset (10,000 transactions, 200 fraud cases)
+- **Models Used:** Logistic Regression, Random Forest Classifier
 - **Best Accuracy:** 99.80%
-- **ROC-AUC Score:** 0.9866 (near perfect)
+- **ROC-AUC Score:** 0.9866
 
 ## 🚀 Features
 
-- ✅ Full data preprocessing and feature scaling
-- ✅ Two ML models trained and compared
-- ✅ Interactive browser dashboard with animations
-- ✅ Hover tooltips on all charts
-- ✅ Count-up animations on key metrics
-- ✅ Dark themed professional UI
-- ✅ Confusion matrix, ROC curve, Feature importance, Amount analysis
+- Full data preprocessing and feature scaling
+- Machine Learning model training and comparison
+- Interactive browser dashboard with animations
+- Hover tooltips for better data insights
+- Count-up animations for key metrics
+- Dark-themed professional UI
+- Visualizations:
+  - Confusion Matrix
+  - ROC Curve
+  - Feature Importance
+  - Transaction Amount Analysis
 
 ## 📊 Results
 
@@ -30,38 +36,33 @@ Credit card fraud is a major problem — millions of transactions happen daily a
 
 ## 🛠️ Tech Stack
 
-| Library | Purpose |
-|---------|---------|
-| `pandas` | Data loading and manipulation |
-| `numpy` | Numerical computations |
-| `matplotlib` | Static visualizations |
-| `seaborn` | Advanced heatmaps |
-| `scikit-learn` | ML models and evaluation |
-| `Chart.js` | Interactive browser charts |
+- **Python Libraries:** pandas, numpy, matplotlib, seaborn, scikit-learn  
+- **Frontend Visualization:** Chart.js  
 
 ## ⚙️ How to Run
 
-### 1. Install required libraries
+### 1. Install dependencies
 pip install pandas numpy matplotlib seaborn scikit-learn
 
 ### 2. Run the project
 python fraud_detection_analytics.py
 
 ### 3. View the dashboard
-The interactive dashboard will automatically open in your browser!
+The interactive dashboard will automatically open in your browser.
 
 ## 🧠 Key Concepts
 
-- **Class Imbalance** — Only 2% of transactions are fraud, making detection challenging
-- **StandardScaler** — Normalizes features so no single feature dominates
-- **Random Forest** — An ensemble of 100 decision trees voting together
-- **ROC-AUC** — Measures how well the model separates fraud from legitimate (1.0 = perfect)
-- **Confusion Matrix** — Shows True Positives, False Positives, True Negatives, False Negatives
-  
-  ## 🌐 Live Interactive Dashboard
+- **Class Imbalance:** Only 2% transactions are fraudulent, making detection challenging  
+- **Feature Scaling:** StandardScaler used to normalize features  
+- **Random Forest:** Ensemble learning using multiple decision trees  
+- **ROC-AUC Score:** Measures model performance (closer to 1 = better)  
+- **Confusion Matrix:** Evaluates classification performance  
 
-👉 [Click here to view the Live Dashboard](https://rizwanashaik09.github.io/fraud-detection-analytics-/fraud_detection_dashboard.html)
+## 🌐 Live Interactive Dashboard
 
-## 👨‍💻 Author
-Built using Python and scikit-learn
-Rizwana Shaik
+👉 https://rizwanashaik09.github.io/fraud-detection-analytics/fraud_detection_dashboard.html
+
+## 👩‍💻 Author
+
+**Rizwana Shaik**  
+Built using Python and Scikit-learn
