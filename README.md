@@ -63,4 +63,5 @@ The interactive dashboard will automatically open in your browser!
 👉 [Click here to view the Live Dashboard](https://rizwanashaik09.github.io/fraud-detection-analytics-/fraud_detection_dashboard.html)
 
 ## 👨‍💻 Author
-Made with ❤️ using Python and scikit-learn
+Built using Python and scikit-learn
+Rizwana Shaik
